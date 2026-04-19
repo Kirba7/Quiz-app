@@ -5,6 +5,10 @@ class GameController
 {
 public:
     GameController();
+
+    void handleJoin();
+    void handleAnswer();
+    void startGame();
 };
 
 #endif // GAMECONTROLLER_H

@@ -12,3 +12,14 @@ LobbyWindow::~LobbyWindow()
 {
     delete ui;
 }
+
+void LobbyWindow::on_btn_start_clicked()
+{
+    emit onGameStarted();
+}
+
+void LobbyWindow::on_btn_leave_clicked()
+{
+    emit onLeave();
+}
+

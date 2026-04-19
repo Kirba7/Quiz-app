@@ -17,6 +17,15 @@ public:
     MainMenu(QWidget *parent = nullptr);
     ~MainMenu();
 
+signals:
+    void onSettingsClicked();
+    void onCreateGameClicked();
+
+private slots:
+    void on_btn_settings_clicked();
+
+    void on_btn_create_game_clicked();
+
 private:
     Ui::MainMenu *ui;
 };

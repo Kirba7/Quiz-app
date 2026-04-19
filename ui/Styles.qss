@@ -1,0 +1,157 @@
+/* ===== GLOBAL ===== */
+QWidget {
+    background-color: #0F172A;
+    color: #E5E7EB;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+QFrame#f_title,
+QFrame#line {
+    background-color: #6D28D9;
+    border-radius: 6px;
+}
+
+/* ===== LABEL ===== */
+QLabel {
+    color: #FEAD3A;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLabel#l_title,
+QLabel#l_players,
+QLabel#l_quiz_info {
+    border-radius: 6px;
+    background-color: #6D28D9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===== PUSH BUTTON ===== */
+QPushButton {
+    background-color: #7C3AED;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    color: #FEAD3A;
+    font-weight: bold;
+}
+
+QPushButton#btn_close:hover {
+    background-color: #EF4444;
+}
+
+QPushButton:hover {
+    background-color: #6D28D9;
+}
+
+QPushButton:pressed {
+    background-color: #5B21B6;
+}
+
+QPushButton:disabled {
+    background-color: #1E293B;
+    color: #6B7280;
+}
+
+/* ===== LINE EDIT ===== */
+QLineEdit {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 6px;
+    color: #E5E7EB;
+}
+
+QLineEdit:focus,
+QLineEdit:hover {
+    border: 1px solid #FEAD3A;
+}
+
+/* ===== COMBO BOX ===== */
+QComboBox {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 6px;
+    color: #E5E7EB;
+}
+
+QComboBox:hover {
+    border: 1px solid #7C3AED;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 10px;
+    height: 10px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1E293B;
+    selection-background-color: #7C3AED;
+    border: 1px solid #334155;
+}
+
+/* ===== CHECKBOX ===== */
+QCheckBox {
+    color: #FEAD3A;
+    spacing: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid #334155;
+    background-color: #1E293B;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #7C3AED;
+    border: 1px solid #7C3AED;
+}
+
+QCheckBox::indicator:hover {
+    border: 1px solid #7C3AED;
+}
+
+/* ===== SPINBOX ===== */
+QSpinBox {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 4px;
+    color: #E5E7EB;
+}
+
+QSpinBox:focus {
+    border: 1px solid #7C3AED;
+}
+
+QSpinBox::up-button,
+QSpinBox::down-button {
+    background-color: #1E293B;
+    border: none;
+    width: 16px;
+}
+
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover {
+    background-color: #7C3AED;
+}
+
+/* ===== TOOLTIP ===== */
+QToolTip {
+    background-color: #1E293B;
+    color: #E5E7EB;
+    border: 1px solid #7C3AED;
+    padding: 4px;
+}

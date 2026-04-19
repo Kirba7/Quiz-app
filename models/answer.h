@@ -3,6 +3,10 @@
 
 class Answer
 {
+    int playerId;
+    int questionId;
+    int answerIndex;
+
 public:
     Answer();
 };

@@ -15,6 +15,15 @@ public:
     explicit LobbyWindow(QWidget *parent = nullptr);
     ~LobbyWindow();
 
+signals:
+    void onGameStarted();
+    void onLeave();
+
+private slots:
+    void on_btn_start_clicked();
+
+    void on_btn_leave_clicked();
+
 private:
     Ui::LobbyWindow *ui;
 };

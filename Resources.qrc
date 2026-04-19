@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/Logo.png</file>
+        <file>resources/palette/theme.xml</file>
+        <file>resources/images/cross.svg</file>
+        <file>resources/images/maximize.svg</file>
+        <file>resources/images/minimize.svg</file>
+        <file>ui/Styles.qss</file>
+    </qresource>
+</RCC>
